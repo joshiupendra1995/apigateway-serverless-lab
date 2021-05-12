@@ -1,42 +1,3 @@
----
-# Related publishing issue: https://github.ibm.com/IBMCode/Code-Tutorials/issues/4598
-# January 12, 2021: The IBM Watson Visual Recognition cloud service, which is core to this tutorial was discontinued on January 7, 2021. I asked the author to update this tutorial or we will retire it from IBM Developer.
-
-archive_date: "2021-01-12"
-
-draft: false
-
-title: "Create, expose, and secure a serverless function as an API"
-subtitle: "Use IBM Cloud Functions to create a serverless action to classify images using Visual Recognition and securely expose the action using IBM API Gateway"
-meta_title: "Create, expose, and secure a serverless function as an API"
-authors:
-  - name: "Saurav Raiguru"
-    email: "saurav.raiguru@in.ibm.com"
-
-completed_date: "2020-09-08"
-check_date: "2021-09-01"
-
-time_to_read: "30 minutes"
-
-excerpt: "In this tutorial, we will be using IBM Cloud Functions (which is a serverless offering on IBM Cloud based on OpenWhisk) to create an action to classify images using IBM Visual Recognition service and then expose and secure the function by leveraging the API Gateway service."
-meta_description: "In this tutorial, we will be using IBM Cloud Functions (which is a serverless offering on IBM Cloud based on OpenWhisk) to create an action to classify images using IBM Visual Recognition service and then expose and secure the function by leveraging the API Gateway service."
-
-meta_keywords: "serverless, visual recognition, api gateway"
-primary_tag: serverless
-tags:
-- api
-components:
-- "ibm-cloud-functions"
-
-# related_content:
-#  - type:
-#    slug:
-
-# related_links:
-#  - title:
-#    url:
-
----
 
 In this tutorial, we will be using IBM Cloud Functions (which is a serverless offering on IBM Cloud based on OpenWhisk) to create an action to classify images using IBM Visual Recognition service and then expose and secure the function by leveraging the API Gateway service.
 
@@ -204,3 +165,6 @@ Completing this tutorial should take about 30 minutes.
 In this tutorial, you learned how to use IBM Visual Recognition service to classify images and how to use IBM Cloud Functions create a serverless action. Finally, you learned how to use the API Gateway service to securely expose the serverless function by creating and testing an API Endpoint.
 
 To further explore and understand API Management using [IBM API Connect](https://cloud.ibm.com/catalog/services/api-connect?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg), try out the [Managing your APIs throughout the API lifecycle](/tutorials/create-and-manage-apis-using-api-connect/) tutorial.
+
+## Authors:
+  - name: `Saurav Raiguru` email: `saurav.raiguru@in.ibm.com`
